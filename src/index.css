@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-gold: #c9a84c;
+  --color-gold-light: #e2c47a;
+  --color-wa: #25d366;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
